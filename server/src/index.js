@@ -8,6 +8,10 @@ const authRoutes = require('./routes/auth');
 const subscriptionRoutes = require('./routes/subscriptions');
 
 const app = express();
+app.use(cors({
+  origin: 'https://subscription-dashboard-task-kappa.vercel.app',
+  credentials: true,
+}))
 
 // Connect to MongoDB
 connectDB();
