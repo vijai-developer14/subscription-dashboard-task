@@ -108,5 +108,5 @@ Register any new account for a regular user.
 ## Author
 
 **Your Name**  
-Email: your@email.com  
-GitHub: github.com/yourusername
+Email: vijaiv383@email.com  
+GitHub: github.com/vijai-developer14
